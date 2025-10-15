@@ -28,7 +28,7 @@
         minus_jis: minus_jis_macro{
             compatible = "zmk,behavior-mod-morph";
             label="MINUS_JIS";
-            bindings = <&kp MINUS> m<&kp EQUAL>;
+            bindings = <&kp MINUS> <&kp EQUAL>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
