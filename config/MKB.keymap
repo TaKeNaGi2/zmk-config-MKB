@@ -31,7 +31,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        function_layer {
+        Symbol_layer {
             label = "Symbol";
             bindings = <
 &none     &none      &kp TILDE  &kp APOS   &kp DQT   &kp STAR      &kp FSLH  &kp LBRC              &kp RBRC               &kp EXCL   &kp QMARK  &none
@@ -59,7 +59,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        mouse_layer {
+        Function_layer {
             label = "Fnc";
             bindings = <
 &none     &none      &none      &kp LC(V)  &kp LC(X)  &kp PRINTSCREEN      &none  &kp F10   &kp F11    &kp F12    &none      &none
