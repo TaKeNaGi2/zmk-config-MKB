@@ -85,7 +85,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - '&MINUS'
+  - MINUS
   - ''
   - {t: SPACE, h: LSHFT}
   - BACKSPACE
