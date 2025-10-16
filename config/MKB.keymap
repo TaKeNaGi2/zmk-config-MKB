@@ -21,7 +21,7 @@
         minus_jis: minus_jis_macro{
             compatible = "zmk,behavior-mod-morph";
             label = "MINUS_JIS";
-            bindings = <&kp MINUS> , <&kp EQUAL>;
+            bindings = <&kp MINUS &kp EQUAL>;
             mods = <MOD_LSFT  MOD_RSFT>;
             //mods = <(MOD_LSFT  MOD_RSFT)>;
         };
@@ -57,7 +57,7 @@
         enter_lay2: enter_lay2{
             compatible = "zmk,behavior-hold-tap";
             label = "ENTER_LAY2";
-            bindings = <&kp ENTER> , <&mo 2>;
+            bindings = <&kp ENTER &mo 2>;
             timeout-ms = <200>;
             quick-tap-ms = <100>;
             flavor = "balanced";
@@ -66,7 +66,7 @@
         space_lay1:space_lay1{
             compatible = "zmk,behavior-hold-tap";
             label = "SPACE_LAY1";
-            bindings = <&kp SPACE> , <&mo 1>;
+            bindings = <&kp SPACE &mo 1>;
             timeout-ms = <200>;
             quick-tap-ms = <100>;
             flavor = "balanced";
@@ -75,7 +75,7 @@
             esc_alt:esc_alt{
             compatible = "zmk,behavior-hold-tap";
             label = "ESC_ALT";
-            bindings = <&kp ESC> , <&kp LALT>;
+            bindings = <&kp ESC &kp LALT>;
             timeout-ms = <200>;
             quick-tap-ms = <100>;
             flavor = "balanced";
