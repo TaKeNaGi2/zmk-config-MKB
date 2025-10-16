@@ -22,7 +22,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "MINUS_JIS";
             bindings = <&kp MINUS> , <&kp EQUAL>;
-            mods = <(MOD_LSFT | MOD_RSFT)>;
+            mods = <MOD_LSFT  MOD_RSFT>;
             //mods = <(MOD_LSFT  MOD_RSFT)>;
         };
 
@@ -30,28 +30,28 @@
             compatible = "zmk,behavior-mod-morph";
             label = "TAB_FIXED";
             bindings = <&kp A>;
-            mods = <(MOD_LALT)>;
+            mods = <MOD_LALT>;
         };
 
         tab_revive:tab_revive{
             compatible = "zmk,behavior-mod-morph";
             label = "TAB_RIVEVE";
             bindings = <&kp T>;
-            mods = <(MOD_LCTRL | MOD_LSFT)>;
+            mods = <MOD_LCTRL  MOD_LSFT>;
         };
 
         tab_dele:tab_dele{
             compatible = "zmk,behavior-mod-morph";
             label = "TAB_DELE";
             bindings = <&kp L>;
-            mods = <(MOD_LCTRL)>;
+            mods = <MOD_LCTRL>;
         };
 
         all_close:all_close{
             compatible = "zmk,behavior-mod-morph";
             label = "ALL_CLOSE";
             bindings = <&kp D>;
-            mods = <(MOD_LGUI)>;
+            mods = <MOD_LGUI>;
         };
 
         enter_lay2: enter_lay2{
