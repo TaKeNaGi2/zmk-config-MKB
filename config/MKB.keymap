@@ -20,7 +20,7 @@
             #binding-cells = <0>;
             label = "MINUS_JIS";
             bindings = <&kp MINUS>, <&kp EQUAL>;
-            mods = <MOD_LSFT | MOD_RSFT>;
+            mods = <(MOD_LSFT | MOD_RSFT)>;
             //mods = <(MOD_LSFT  MOD_RSFT)>;
         };
 
