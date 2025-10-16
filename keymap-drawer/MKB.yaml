@@ -33,9 +33,9 @@ layers:
   - B
   - N
   - M
-  - '&btn1'
-  - '&btn2'
-  - '&btn4'
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB4'
   - DOT
   - M
   - TAB
@@ -44,8 +44,8 @@ layers:
   - K
   - BKSP
   - ENTER
-  - '&btn3'
-  - '&btn5'
+  - '&mkp MB3'
+  - '&mkp MB5'
   - RCTL
   - HOME
   - DOWN
