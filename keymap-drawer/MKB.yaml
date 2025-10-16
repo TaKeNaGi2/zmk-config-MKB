@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - ''
+  - Sft+Ctl+T
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - SEMI
-  - ''
+  - Ctl+TAB
   - A
   - S
   - D
@@ -23,9 +23,9 @@ layers:
   - J
   - K
   - L
-  - ''
+  - MINUS
   - COMMA
-  - ''
+  - Sft+Ctl+TAB
   - Z
   - X
   - C
@@ -37,13 +37,13 @@ layers:
   - '&mkp MB2'
   - '&mkp MB4'
   - DOT
-  - ''
+  - {t: ESCAPE, h: LEFT ALT}
   - TAB
-  - LCTL
-  - {t: LANG1, h: LSHFT}
-  - ''
-  - BKSP
-  - ''
+  - RIGHT CONTROL
+  - {t: AltGr+GRAVE, h: AltGr+LEFT SHIFT}
+  - {t: SPACE, h: Symbol}
+  - BACKSPACE
+  - {t: KP ENTER, h: Num}
   - '&mkp MB3'
   - '&mkp MB5'
   - RCTL
@@ -59,9 +59,65 @@ layers:
   - RIGHT
   - A
   - B
-  Symbol: [GRAVE, PG UP, TILDE, APOS, DQT, STAR, FSLH, LBKT, RBKT, '!', QMARK, '', '&tog_ls', PRCNT, HASH, AMPS, PIPE, DLLR, BSLH, LBRC, RBKT, SEMI, COLON, UNDER,
-    '', BKSP, CARET, GRAVE, DQT, DOT, AT, LPAR, RPAR, LT, GT, '', '', '', LALT, '', '', BKSP, LSHFT, '', '', '', HOME, DOWN, PG UP, PG DN, DEL, LEFT, UP, ENTER, DOWN,
-    RIGHT, A, B]
+  Symbol:
+  - GRAVE
+  - PG UP
+  - TILDE
+  - APOS
+  - DQT
+  - STAR
+  - FSLH
+  - LBKT
+  - RBKT
+  - '!'
+  - QMARK
+  - ''
+  - '&tog_ls'
+  - PRCNT
+  - HASH
+  - AMPS
+  - PIPE
+  - DLLR
+  - BSLH
+  - LBRC
+  - RBKT
+  - SEMI
+  - COLON
+  - UNDER
+  - ''
+  - BKSP
+  - CARET
+  - GRAVE
+  - DQT
+  - DOT
+  - AT
+  - LPAR
+  - RPAR
+  - LT
+  - GT
+  - ''
+  - ''
+  - ''
+  - LALT
+  - ''
+  - {type: held}
+  - BKSP
+  - LSHFT
+  - ''
+  - ''
+  - ''
+  - HOME
+  - DOWN
+  - PG UP
+  - PG DN
+  - DEL
+  - LEFT
+  - UP
+  - ENTER
+  - DOWN
+  - RIGHT
+  - A
+  - B
   Num:
   - CAPS
   - ''
@@ -105,7 +161,7 @@ layers:
   - '0'
   - ENTER
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
