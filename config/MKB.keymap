@@ -21,8 +21,8 @@
         minus_jis: minus_jis_macro{
             compatible = "zmk,behavior-mod-morph";
             label="MINUS_JIS";
-            bindings = <&kp MINUS>,<&kp EQUAL>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            bindings = <&kp MINUS>, <&kp EQUAL>;
+            mods = <(MOD_LSFT  MOD_RSFT)>;
         };
 
         tab_fixed:tab_fixed{
@@ -36,7 +36,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "TAB_RIVEVE";
             bindings = <&kp T>;
-            mods = <(MOD_LCTRL | MOD_LSFT)>;
+            mods = <(MOD_LCTRL  MOD_LSFT)>;
         };
 
         tab_dele:tab_dele{
