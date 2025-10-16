@@ -121,7 +121,7 @@
             label = "Num";
             bindings = <
 &kp CAPS        &none          &kp N7     &kp N8    &kp N9     &kp STAR       &kp FSLH   &kp LEFT   &kp UP     &none      &none      &none
-&none           &none          &kp N4     &kp N5    &kp N6     &kp PLUS       &kp D /* all_close*/ &kp LEFT   &kp DOWN   &kp RIGHT  &MINUS /*minus_jis*/ &none
+&none           &none          &kp N4     &kp N5    &kp N6     &kp PLUS       &kp D /* all_close*/ &kp LEFT   &kp DOWN   &kp RIGHT  &kp MINUS /*minus_jis*/ &none
 &mt LSHFT SPACE &kp BACKSPACE  &kp N1     &kp N2    &kp N3     &kp DOT        &none      &kp LEFT   &kp DOWN   &kp RIGHT  &none      &none
 &none           &kp ENTER      &none                &kp N0     &kp ENTER      &none      &none                 &none      &none      &none
 
