@@ -29,7 +29,7 @@
             #binding-cells = <0>;
             label = "TAB_FIXED";
             bindings = <&kp A>;
-            mods = <MOD_LALT>;
+            mods = <(MOD_LALT)>;
         };
 
         tab_revive: tab_revive{
@@ -45,7 +45,7 @@
             #binding-cells = <0>;
             label = "TAB_DELE";
             bindings = <&kp L>;
-            mods = <MOD_LCTRL>;
+            mods = <(MOD_LCTRL)>;
         };
 
         all_close: all_close{
@@ -53,7 +53,7 @@
             #binding-cells = <0>;
             label = "ALL_CLOSE";
             bindings = <&kp D>;
-            mods = <MOD_LGUI>;
+            mods = <(MOD_LGUI)>;
         };
 
         enter_lay2: enter_lay2{
