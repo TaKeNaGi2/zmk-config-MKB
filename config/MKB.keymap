@@ -29,7 +29,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "TAB_FIXED";
             bindings = <&kp A>;
-            mods = <MOD_LALT>;
+            mods = <(MOD_LALT)>;
         };
 
         tab_revive:tab_revive{
