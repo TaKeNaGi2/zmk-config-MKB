@@ -60,15 +60,15 @@ layers:
   - A
   - B
   Symbol:
-  - GRAVE
-  - PG UP
+  - ''
+  - ''
   - TILDE
   - APOS
   - DQT
   - STAR
   - FSLH
-  - LBKT
-  - RBKT
+  - LBRC
+  - RBRC
   - '!'
   - QMARK
   - ''
@@ -79,23 +79,23 @@ layers:
   - PIPE
   - DLLR
   - BSLH
-  - LBRC
-  - RBKT
+  - LEFT BRACKET
+  - RIGHT BRACKET
   - SEMI
   - COLON
   - UNDER
   - ''
-  - BKSP
+  - ''
   - CARET
   - GRAVE
   - DQT
   - DOT
   - AT
-  - LPAR
-  - RPAR
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
   - LT
   - GT
-  - ''
+  - UNDER
   - ''
   - ''
   - LALT
