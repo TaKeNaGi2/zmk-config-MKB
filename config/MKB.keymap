@@ -37,7 +37,7 @@
             #binding-cells = <0>;
             label = "TAB_RIVEVE";
             bindings = <&kp T>;
-            mods = <MOD_LCTRL  MOD_LSFT>;
+            mods = <(MOD_LCTRL  MOD_LSFT)>;
         };
 
         tab_dele: tab_dele{
