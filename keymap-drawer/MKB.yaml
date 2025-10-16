@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - K
+  - ''
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - SEMI
-  - S
+  - ''
   - A
   - S
   - D
@@ -23,9 +23,9 @@ layers:
   - J
   - K
   - L
-  - MINUS
+  - ''
   - COMMA
-  - J
+  - ''
   - Z
   - X
   - C
@@ -37,13 +37,13 @@ layers:
   - '&mkp MB2'
   - '&mkp MB4'
   - DOT
-  - M
+  - ''
   - TAB
   - LCTL
   - {t: LANG1, h: LSHFT}
-  - K
+  - ''
   - BKSP
-  - ENTER
+  - ''
   - '&mkp MB3'
   - '&mkp MB5'
   - RCTL
@@ -81,11 +81,11 @@ layers:
   - '5'
   - '6'
   - PLUS
-  - D
+  - ''
   - LEFT
   - DOWN
   - RIGHT
-  - MINUS
+  - ''
   - ''
   - {t: SPACE, h: LSHFT}
   - BACKSPACE
