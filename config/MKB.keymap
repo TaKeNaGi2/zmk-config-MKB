@@ -14,85 +14,16 @@
 #define BT 5
 
 / {
-    behaviors{
-        minus_jis: minus_jis_macro{
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            label = "MINUS_JIS";
-            bindings = <&kp MINUS>, <&kp EQUAL>;
-            mods = <(MOD_LSFT | MOD_RSFT)>;
-            //mods = <(MOD_LSFT  MOD_RSFT)>;
-        };
-
-        tab_fixed: tab_fixed{
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            label = "TAB_FIXED";
-            bindings = <&kp A>;
-            mods = <(MOD_LALT)>;
-        };
-
-        tab_revive: tab_revive{
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            label = "TAB_RIVEVE";
-            bindings = <&kp T>;
-            mods = <(MOD_LCTRL | MOD_LSFT)>;
-        };
-
-        tab_dele: tab_dele{
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            label = "TAB_DELE";
-            bindings = <&kp L>;
-            mods = <(MOD_LCTRL)>;
-        };
-
-        all_close: all_close{
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            label = "ALL_CLOSE";
-            bindings = <&kp D>;
-            mods = <(MOD_LGUI)>;
-        };
-
-        enter_lay2: enter_lay2{
-            compatible = "zmk,behavior-hold-tap";
-            label = "ENTER_LAY2";
-            bindings = <&kp ENTER>, <&mo 2>;
-            timeout-ms = <200>;
-            quick-tap-ms = <100>;
-            flavor = "balanced";
-        };    
-
-        space_lay1: space_lay1{
-            compatible = "zmk,behavior-hold-tap";
-            label = "SPACE_LAY1";
-            bindings = <&kp SPACE>, <&mo 1>;
-            timeout-ms = <200>;
-            quick-tap-ms = <100>;
-            flavor = "balanced";
-        };
-
-            esc_alt: esc_alt{
-            compatible = "zmk,behavior-hold-tap";
-            label = "ESC_ALT";
-            bindings = <&kp ESC>, <&kp LALT>;
-            timeout-ms = <200>;
-            quick-tap-ms = <100>;
-            flavor = "balanced";
-        };
-    };
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             label = "Def";
             bindings = <
-&tab_revive   &kp Q     &kp W      &kp E     &kp R           &kp T               &kp Y           &kp U          &kp I      &kp O      &kp P           &kp SEMI
-&tab_fixed &kp S    &kp A     &kp S      &kp D     &kp F           &kp G               &kp H           &kp J          &kp K      &kp L      &minus_jis     &kp COMMA
-&tab_dele &kp J    &kp Z     &kp X      &kp C     &kp V           &kp B               &kp N           &kp M          &mkp MB1      &mkp MB2      &mkp MB4           &kp DOT
-&esc_alt &kp M     &kp TAB   &kp LCTL             &mt LSHFT LANG1 &space_lay1         &kp BKSP        &enter_lay2               &mkp MB3      &mkp MB5           &kp RCTL
+&none   &kp Q     &kp W      &kp E     &kp R           &kp T               &kp Y           &kp U          &kp I      &kp O      &kp P     &kp SEMI
+&none   &kp A     &kp S      &kp D     &kp F           &kp G               &kp H           &kp J          &kp K      &kp L      &none     &kp COMMA
+&none   &kp Z     &kp X      &kp C     &kp V           &kp B               &kp N           &kp M          &mkp MB1   &mkp MB2   &mkp MB4  &kp DOT
+&none   &kp TAB   &kp LCTL             &mt LSHFT LANG1 &none               &kp BKSP        &none                     &mkp MB3   &mkp MB5  &kp RCTL
 
               &kp HOME  &kp DOWN  &kp PG_UP  &kp PG_DN       &kp DEL             &kp LEFT        &kp UP         &kp ENTER  &kp DOWN   &kp RIGHT
                                    &kp A                                                                       &kp B
@@ -120,7 +51,7 @@
             label = "Num";
             bindings = <
 &kp CAPS        &none          &kp N7     &kp N8    &kp N9     &kp STAR       &kp FSLH   &kp LEFT   &kp UP     &none      &none      &none
-&none           &none          &kp N4     &kp N5    &kp N6     &kp PLUS       &all_close &kp LEFT   &kp DOWN   &kp RIGHT  &minus_jis &none
+&none           &none          &kp N4     &kp N5    &kp N6     &kp PLUS       &none      &kp LEFT   &kp DOWN   &kp RIGHT  &none      &none
 &mt LSHFT SPACE &kp BACKSPACE  &kp N1     &kp N2    &kp N3     &kp DOT        &none      &kp LEFT   &kp DOWN   &kp RIGHT  &none      &none
 &none           &kp ENTER      &none                &kp N0     &kp ENTER      &none      &none                 &none      &none      &none
 
