@@ -20,6 +20,7 @@
     behaviors{
         minus_jis: minus_jis_macro{
             compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
             label = "MINUS_JIS";
             bindings = <&kp MINUS &kp EQUAL>;
             mods = <MOD_LSFT  MOD_RSFT>;
@@ -28,6 +29,7 @@
 
         tab_fixed:tab_fixed{
             compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
             label = "TAB_FIXED";
             bindings = <&kp A>;
             mods = <MOD_LALT>;
@@ -35,6 +37,7 @@
 
         tab_revive:tab_revive{
             compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
             label = "TAB_RIVEVE";
             bindings = <&kp T>;
             mods = <MOD_LCTRL  MOD_LSFT>;
@@ -42,6 +45,7 @@
 
         tab_dele:tab_dele{
             compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
             label = "TAB_DELE";
             bindings = <&kp L>;
             mods = <MOD_LCTRL>;
@@ -49,6 +53,7 @@
 
         all_close:all_close{
             compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
             label = "ALL_CLOSE";
             bindings = <&kp D>;
             mods = <MOD_LGUI>;
