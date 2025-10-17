@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - SEMI
-  - Ctl+Sft+TAB
+  - {t: SEMI, h: BT}
+  - Ctl+Alt+RIGHT
   - A
   - S
   - D
@@ -25,7 +25,7 @@ layers:
   - L
   - MINUS
   - COMMA
-  - Ctl+TAB
+  - Ctl+W
   - Z
   - X
   - C
@@ -38,8 +38,8 @@ layers:
   - '&mkp MB4'
   - DOT
   - {t: ESCAPE, h: LEFT ALT}
-  - TAB
-  - RIGHT CONTROL
+  - {t: TAB, h: Ctl+LEFT SHIFT}
+  - {t: TAB, h: RIGHT CONTROL}
   - {t: AltGr+GRAVE, h: LEFT SHIFT}
   - {t: SPACE, h: Symbol}
   - BACKSPACE
@@ -189,7 +189,7 @@ layers:
   - F11
   - F12
   - ''
-  - ''
+  - F4
   - ''
   - Alt+A
   - Ctl+C
@@ -201,7 +201,7 @@ layers:
   - F8
   - F9
   - ''
-  - ''
+  - F3
   - ''
   - Ctl+B
   - ''
@@ -213,7 +213,7 @@ layers:
   - F5
   - F6
   - ''
-  - ''
+  - F1
   - ''
   - ''
   - ''
@@ -239,18 +239,18 @@ layers:
   Scr: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '&mkp MB1', '&mkp MB3', '&mkp
       MB2', '', '', '', '', '', '', '', '', '', '', '', LEFT, UP, SPACE, DOWN, RIGHT, HOME, PG UP, ENTER, PG DN, END, A, B]
   BT:
-  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - BT CLR ALL
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
