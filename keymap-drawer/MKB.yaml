@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - SEMI
-  - Ctl+TAB
+  - Ctl+Sft+TAB
   - A
   - S
   - D
@@ -25,7 +25,7 @@ layers:
   - L
   - MINUS
   - COMMA
-  - Sft+Ctl+TAB
+  - Ctl+TAB
   - Z
   - X
   - C
