@@ -106,14 +106,14 @@ layers:
   - ''
   - ''
   - ''
+  - PAGE DOWN
   - HOME
-  - DOWN
   - PG UP
-  - PG DN
+  - END
   - DEL
   - LEFT
   - UP
-  - ENTER
+  - LEFT GUI
   - DOWN
   - RIGHT
   - A
@@ -165,16 +165,16 @@ layers:
   - ''
   - ''
   - ''
-  - LEFT
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
+  - PAGE DOWN
   - HOME
   - PG UP
-  - ENTER
-  - PG DN
   - END
+  - DELETE
+  - LEFT ARROW
+  - UP
+  - LEFT GUI
+  - DOWN ARROW
+  - RIGHT
   - A
   - B
   Fnc:
@@ -224,16 +224,16 @@ layers:
   - ''
   - ''
   - ''
-  - {t: LEFT, type: held}
-  - UP
-  - SPACE
-  - DOWN
-  - RIGHT
+  - {t: PG DN, type: held}
   - HOME
   - PG UP
-  - ENTER
-  - PG DN
   - END
+  - DELETE
+  - LEFT
+  - UP ARROW
+  - ENTER
+  - DOWN
+  - RIGHT
   - A
   - B
   Scr: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '&mkp MB1', '&mkp MB3', '&mkp
