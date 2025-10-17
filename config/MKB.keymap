@@ -36,12 +36,12 @@
         Symbol_layer {
             label = "Symbol";
             bindings = <
-&none     &none      &kp TILDE  &kp APOS   &kp DQT   &kp STAR      &kp FSLH       &kp LBRC              &kp RBRC               &kp EXCL   &kp QMARK  &none
-&none     &kp PRCNT  &kp HASH   &kp AMPS   &kp PIPE  &kp DLLR      &kp BSLH       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMI   &kp COLON  &kp UNDER
-&none     &none      &kp CARET  &kp GRAVE  &kp DQT   &kp DOT       &kp AT         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LT     &kp GT     &kp UNDER
-&none     &none      &kp LALT              &none     &none         &kp BACKSPACE  &kp LSHFT                                    &none      &none      &none
-&kp HOME  &kp DOWN   &kp PG_UP  &kp PG_DN  &kp DEL                                &kp LEFT              &kp UP                 &kp ENTER  &kp DOWN   &kp RIGHT
-                                &kp A                                                                   &kp B
+&none          &none      &kp TILDE  &kp APOS   &kp DQT   &kp STAR      &kp FSLH       &kp LBRC              &kp RBRC               &kp EXCL      &kp QMARK  &none
+&none          &kp PRCNT  &kp HASH   &kp AMPS   &kp PIPE  &kp DLLR      &kp BSLH       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMI      &kp COLON  &kp UNDER
+&none          &none      &kp CARET  &kp GRAVE  &kp DQT   &kp DOT       &kp AT         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LT        &kp GT     &kp UNDER
+&none          &none      &kp LALT              &none     &none         &kp BACKSPACE  &kp LSHFT                                    &none         &none      &none
+&kp PAGE_DOWN  &kp HOME   &kp PG_UP  &kp END    &kp DEL                                &kp LEFT              &kp UP                 &kp LEFT_GUI  &kp DOWN   &kp RIGHT
+                                     &kp A                                                                   &kp B
             >;
 
             sensor-bindings =
@@ -52,12 +52,12 @@
         num_layer {
             label = "Num";
             bindings = <
-&none            &none          &kp N7     &kp N8    &kp N9     &kp STAR           &kp FSLH   &kp LEFT  &kp UP     &none      &none      &none
-&none            &kp LG(R)      &kp N4     &kp N5    &kp N6     &kp PLUS           &kp LG(D)  &kp LEFT  &kp DOWN   &kp RIGHT  &kp EQUAL  &kp LA(A)
-&mt LSHFT SPACE  &kp BACKSPACE  &kp N1     &kp N2    &kp N3     &kp DOT            &none      &kp LEFT  &kp DOWN   &kp RIGHT  &none      &none
-&none            &kp ENTER      &none                &kp N0     &kp BACKSPACE      &none      &none                &none      &none      &none
-&kp LEFT         &kp UP         &kp SPACE  &kp DOWN  &kp RIGHT                                &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                           &kp A                                                        &kp B
+&none            &none          &kp N7     &kp N8   &kp N9      &kp STAR           &kp FSLH   &kp LEFT        &kp UP    &none         &none           &none
+&none            &kp LG(R)      &kp N4     &kp N5   &kp N6      &kp PLUS           &kp LG(D)  &kp LEFT        &kp DOWN  &kp RIGHT     &kp EQUAL       &kp LA(A)
+&mt LSHFT SPACE  &kp BACKSPACE  &kp N1     &kp N2   &kp N3      &kp DOT            &none      &kp LEFT        &kp DOWN  &kp RIGHT     &none           &none
+&none            &kp ENTER      &none               &kp N0      &kp BACKSPACE      &none      &none                     &none         &none           &none
+&kp PAGE_DOWN    &kp HOME       &kp PG_UP  &kp END  &kp DELETE                                &kp LEFT_ARROW  &kp UP    &kp LEFT_GUI  &kp DOWN_ARROW  &kp RIGHT
+                                           &kp A                                                              &kp B
             >;
 
             sensor-bindings =
@@ -68,12 +68,12 @@
         Function_layer {
             label = "Fnc";
             bindings = <
-&none     &none      &none      &kp LC(V)  &kp LC(X)  &kp PRINTSCREEN      &none  &kp F10   &kp F11    &kp F12    &none      &kp F4
-&none     &kp LA(A)  &kp LC(C)  &kp LC(Z)  &kp LC(Y)  &kp LC(Y)            &none  &kp F7    &kp F8     &kp F9     &none      &kp F3
-&none     &kp LC(B)  &none      &kp LC(D)  &kp LC(A)  &kp LC(S)            &none  &kp F2    &kp F5     &kp F6     &none      &kp F1
-&none     &none      &none                 &none      &none                &none  &none                &none      &none      &none
-&kp LEFT  &kp UP     &kp SPACE  &kp DOWN   &kp RIGHT                              &kp HOME  &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                                &kp A                                                       &kp B
+&none      &none      &none      &kp LC(V)  &kp LC(X)   &kp PRINTSCREEN      &none  &kp F10   &kp F11       &kp F12    &none     &kp F4
+&none      &kp LA(A)  &kp LC(C)  &kp LC(Z)  &kp LC(Y)   &kp LC(Y)            &none  &kp F7    &kp F8        &kp F9     &none     &kp F3
+&none      &kp LC(B)  &none      &kp LC(D)  &kp LC(A)   &kp LC(S)            &none  &kp F2    &kp F5        &kp F6     &none     &kp F1
+&none      &none      &none                 &none       &none                &none  &none                   &none      &none     &none
+&kp PG_DN  &kp HOME   &kp PG_UP  &kp END    &kp DELETE                              &kp LEFT  &kp UP_ARROW  &kp ENTER  &kp DOWN  &kp RIGHT
+                                 &kp A                                                        &kp B
             >;
 
             sensor-bindings =
